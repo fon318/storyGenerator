@@ -1,0 +1,88 @@
+        *{
+            margin:0;
+            box-sizing: border-box;
+            
+        }
+        
+        
+        body {
+            font-family: helvetica, sans-serif;
+            background:linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+        }
+        
+
+        label {
+            font-weight: 500;
+            font-size: 2rem;
+        }
+
+        .countries{
+            font-size: 1.2rem;
+            font-weight: 300;
+            margin-left: 5px;
+        }
+        
+        .input{
+            margin-bottom: 1em;
+        }
+
+        input[type="text"] {
+             width:250px;
+             height:30px;
+            outline:none; 
+        }
+
+        p {
+            padding: 3em 1.5em;
+            visibility: hidden;
+            max-width: 500px;
+            border: 2px solid black;
+            border-radius: 20px;
+            margin-top: 4em;
+            background-color: rgb(222, 239, 248);
+            line-height: 1.5em;
+            font-size: 16px;
+        }
+        
+        .main-container{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5em;
+        }
+
+        .child-container{
+           background-color: rgb(255, 223, 228);
+           width:500px;
+           border: solid #EF709D 5px;
+           border-radius:20%;
+           text-align: center;
+           padding:4em 5em;
+        }
+
+        .randomize{
+            border: none;
+            font-size: 1rem;
+            padding:1em 2em;
+            border-radius: 12px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 2em;
+            border: solid #EF709D 2px;
+           background-color: white;
+        }
+
+        button:hover{
+         border: solid 2px rgb(167, 167, 250);
+        background-color: pink;
+        }
+
+        .radio-buttons{
+            margin-top: 1em;
+        }
+     
+
+       
